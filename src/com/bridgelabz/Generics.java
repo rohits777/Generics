@@ -10,12 +10,15 @@ public class Generics {
                 max = t;
             }
         }
-
-        System.out.println("Maximum value is :: " +max);
+        printMax(max);
+    }
+    public static <T> void printMax(T max){
+        System.out.println("Maximum value is :: " + max);
     }
     public static void main(String[] args) {
-        bigger(10,20,33,14,26);
-        bigger(11.6,25.5,31.5,31.3);
+        System.out.println("--Welcome to generics Program --");
+        bigger(17,20,33,44,27);
+        bigger(16.6,22.5,35.5,35.3);
         bigger("Mango","Banana","Apple");
     }
 }
