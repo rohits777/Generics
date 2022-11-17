@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Generics {
     public static void main(String[] args) {
         System.out.println("Welcome to the Generics Program");
-        int a,b,c;
+        float a,b,c;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a value :: ");
-        a = sc.nextInt();
+        a = sc.nextFloat();
         System.out.print("Enter b value :: ");
-        b = sc.nextInt();
+        b = sc.nextFloat();
         System.out.print("Enter c value :: ");
-        c = sc.nextInt();
+        c = sc.nextFloat();
 
         if (a > b && a > c){
             System.out.println(a+" is bigger");
